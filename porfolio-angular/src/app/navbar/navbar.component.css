@@ -1,0 +1,38 @@
+.navbar.navbar-expand-lg{
+    background-color: #000000;
+}
+.nombre-programa{
+    color: #e7e7e7;
+    font-family: monospace;
+    font-size: 15px;
+}
+.nombre-programa:hover{
+    color: #fedc3d;
+}
+li.list-group-item{
+    background-color: #000000;
+    color: #f6f7f8;
+}
+i.fa-brands.fa-instagram:hover{
+    color: #ce0d53;
+}
+i.fa-brands.fa-linkedin-in:hover{
+    color:  #007bb6;
+}
+i.fa-brands.fa-behance:hover{
+    color:  #053eff;
+}
+i.fa-solid.fa-user-lock.fa-2xl{
+    color: #facd00;
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: #9a7f04;
+}
+.btn.btn-primary{
+    background-color: #02bbbb;
+    border-color: #02bbbb;
+}
+.btn.btn-primary:hover{
+    background-color: #01abaa;
+    border-color: #01abaa;
+}
