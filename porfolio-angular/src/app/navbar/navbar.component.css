@@ -28,11 +28,3 @@ i.fa-solid.fa-user-lock.fa-2xl{
 i.fa-solid.fa-user-lock.fa-2xl:hover{
     color: #9a7f04;
 }
-.btn.btn-primary{
-    background-color: #02bbbb;
-    border-color: #02bbbb;
-}
-.btn.btn-primary:hover{
-    background-color: #01abaa;
-    border-color: #01abaa;
-}
