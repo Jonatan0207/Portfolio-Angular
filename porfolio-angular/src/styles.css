@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(assets/IMG/Banner.jpg);
+    background-size: 100% 36rem;
+    background-repeat: no-repeat;
+    background-color: #eeeeee !important;
+}

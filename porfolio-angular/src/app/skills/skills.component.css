@@ -1,0 +1,19 @@
+.acerca-de-mi{
+    text-align: justify;
+    font-size: 15px;
+    border: 1px solid #03030339;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.503);
+}
+.progress-bar-orange{
+    background-color: #ff3401 !important;
+}
+.progress-bar-violet{
+    background-color: #6600fe !important;
+}
+.card:hover{
+    background-color: #cdd8e8;
+    border: 1px solid #96abc7;
+    text-align: center;
+}
