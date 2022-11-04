@@ -10,6 +10,11 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { EducacionComponent } from './educacion/educacion.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { IntroComponent } from './intro/intro.component';
+import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { CerrarsesionComponent } from './navbardashboard/cerrarsesion/cerrarsesion.component';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +26,10 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     EducacionComponent,
     SkillsComponent,
     ProyectosComponent,
+    DashboardComponent,
+    IntroComponent,
+    NavbardashboardComponent,
+    CerrarsesionComponent,
   ],
   imports: [
     BrowserModule,
