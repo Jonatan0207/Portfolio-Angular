@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { IntroComponent } from './intro/intro.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { CerrarsesionComponent } from './navbardashboard/cerrarsesion/cerrarsesion.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { CerrarsesionComponent } from './navbardashboard/cerrarsesion/cerrarsesi
     IntroComponent,
     NavbardashboardComponent,
     CerrarsesionComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,

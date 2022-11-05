@@ -1,0 +1,239 @@
+ <!--Sidebar-->
+ <section class="sidebar">
+    <div class="d-flex align-items-start row">
+        <div class="nav flex-column nav-pills me-3 col-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-perfil-tab" data-bs-toggle="pill" data-bs-target="#v-pills-perfil" type="button" role="tab" aria-controls="v-pills-perfil" aria-selected="true">Perfil</button>
+            <button class="nav-link" id="v-pills-acerca-tab" data-bs-toggle="pill" data-bs-target="#v-pills-acerca" type="button" role="tab" aria-controls="v-pills-acerca" aria-selected="false">Acerca De</button>
+            <button class="nav-link" id="v-pills-experiencia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experiencia" type="button" role="tab" aria-controls="v-pills-experiencia" aria-selected="false">Experiencia</button>
+            <button class="nav-link" id="v-pills-educación-tab" data-bs-toggle="pill" data-bs-target="#v-pills-educación" type="button" role="tab" aria-controls="v-pills-educación" aria-selected="false">Educación</button>
+            <button class="nav-link" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false">Skills</button>
+            <button class="nav-link" id="v-pills-proyectos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proyectos" type="button" role="tab" aria-controls="v-pills-proyectos" aria-selected="false">Proyectos</button>
+        </div>
+        <div class="tab-content acerca-de-mi col-8" id="v-pills-tabContent">
+            <!--Perfil-->
+            <div class="tab-pane fade show active" id="v-pills-perfil" role="tabpanel" aria-labelledby="v-pills-perfil-tab" tabindex="0">
+                <h4 class="mt-2">Perfil</h4>
+                <p><b>* El asterisco indica que el campo es obligatorio</b></p>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Banner</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Foto de perfil*</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Nombre*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="titulo" placeholder="Ingrese su nombre">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Apellido*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="titulo" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Título*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="titulo" placeholder="Ej: Diseñador UX/UI">
+                    </div>
+                </div>
+                <h5 class="mt-3">Ubicación</h5>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">País/Región*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="titulo" placeholder="Ej: Madrid, España">
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+            <!--Acerca De-->
+            <div class="tab-pane fade" id="v-pills-acerca" role="tabpanel" aria-labelledby="v-pills-acerca-tab" tabindex="0">
+                <h4 class="mt-2">Acerca De</h4>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">
+                        Aquí debés poner tu información profesional resumida
+                    </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su texto aquí"></textarea>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+            <!--Experiencia-->
+            <div class="tab-pane fade" id="v-pills-experiencia" role="tabpanel" aria-labelledby="v-pills-experiencia-tab" tabindex="0">
+                <h4 class="mt-2">Experiencia</h4>
+                <p><b>* El asterisco indica que el campo es obligatorio</b></p>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Logo de la empresa</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Titulo del puesto*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ej: Administrativo">
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Nombre de la empresa*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ej: Google">
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Tipo de Empleo</label>
+                    <div class="col-sm-12">
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Selecciona una opción</option>
+                              <option value="1">Jornada completa</option>
+                              <option value="2">Jornada parcial</option>
+                              <option value="3">Autónomo</option>
+                              <option value="4">Contrato temporal</option>
+                              <option value="5">Contrato de prácticas</option>
+                            </select>
+                          </div>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Fecha de inicio*</label>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Mes" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Año" aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Actualmente tengo este trabajo</label>
+                  </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Fecha de finalización</label>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Mes" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Año" aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+            <!--Educación-->
+            <div class="tab-pane fade" id="v-pills-educación" role="tabpanel" aria-labelledby="v-pills-educación-tab" tabindex="0">
+                <h4 class="mt-2">Educación</h4>
+                <p><b>* El asterisco indica que el campo es obligatorio</b></p>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Logo de la institución</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Nombre de la institución*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ej: Argentina Programa">
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-3 col-form-label">Carrera/Título*</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ej: Full Stack Developer Jr.">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">Fecha de inicio</label>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Mes" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Año" aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-4 col-form-label">Fecha de finalización (o fecha prevista)</label>
+                    <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Mes" aria-label="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Año" aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+            <!--Skills-->
+            <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab" tabindex="0">
+                <h4 class="mt-2">Hard Skills</h4>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Logo de tu habilidad (tipo de archivo .png)</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-4 col-form-label">Porcentaje de tu habilidad (de 0% a 100%)</label>
+                    <div class="col-sm-12 input-group">
+                        <div class="input-group-text">%</div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ej: 55%">
+                    </div>
+                </div>
+                <h4 class="mt-4">Soft Skills</h4>
+                <div class="mb-3 row mt-2">
+                    <label class="col-sm-3 col-form-label">Nombre de tu habilidad</label>
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ej: Gestión del tiempo">
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+                    <label class="col-sm-4 col-form-label">Porcentaje de tu habilidad (de 0% a 100%)</label>
+                    <div class="col-sm-12 input-group">
+                        <div class="input-group-text">%</div>
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ej: 70%">
+                    </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+            <!--Proyectos-->
+            <div class="tab-pane fade" id="v-pills-proyectos" role="tabpanel" aria-labelledby="v-pills-proyectos-tab" tabindex="0">
+                <h4 class="mt-2">Proyectos</h4>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Imagen de portada</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Link del proyecto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese link del proyecto">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">
+                        Aquí debés poner una breve descripción del proyecto
+                    </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingrese su texto aquí"></textarea>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="button">Guardar</button>
+                </div>
+                <div class="mt-2"></div>
+            </div>
+        </div>
+    </div>
+</section>
